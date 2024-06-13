@@ -35,7 +35,11 @@ public class Main {
                 break;
 
                 case 2:
-                    System.out.println("Bayar Pajak");
+                    System.out.print("Masukkan Nomor TNBK: ");
+                    String noTNKB = sc.nextLine();
+                    System.out.print("Bulan Bayar: ");
+                    int b = sc.nextInt();
+                    dll.Bayar(noTNKB, b);
                 break;
 
                 case 3:
